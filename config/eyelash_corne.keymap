@@ -90,7 +90,7 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&to 4   &kp F1      &kp F2      &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
+&tog 4   &kp F1      &kp F2      &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
 &trans  &trans      &mkp LCLK   &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
 &trans  &sys_reset  &trans      &bootloader  &trans     &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
                                 &trans      &trans      &trans                                                                   &trans       &trans     &trans
@@ -102,10 +102,10 @@
         layer_4 {
             display-name = "Gaming";
             bindings = <
-&kp TAB   &kp Q    &kp W    &kp E    &kp R    &kp T                              &none                &none        &none  &none      &none    &none     &to 4
-&td0   &kp A    &kp S    &kp D    &kp F    &kp G                   &none  &none  &none  &none        &none  &none     &none    &none  &studio_unlock
+&kp TAB   &kp Q    &kp W    &kp E    &kp R    &kp T                              &none                &none        &none  &none      &none    &none     &tog 4
+&td0   &kp A    &kp S    &kp D    &kp F    &kp G                   &none  &none  &none  &none        &none  &none     &none    &none  &none
 &kp LCTRL &kp Z    &kp X    &kp C    &kp V    &kp B    &none                   &none             &none        &none  &none  &none  &none  &kp ESC
-                            &mo 1    &mo 2    &kp SPACE                                                   &none  &none  &none
+                            &lt 1 SPACE    &lt 2 SPACE   &kp SPACE                                                   &none  &none  &none
             >;
             sensor-bindings = <&scroll_encoder>;
         };
