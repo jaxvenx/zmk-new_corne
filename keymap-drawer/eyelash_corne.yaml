@@ -148,7 +148,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
-  - '&gaming_toggle'
+  - {t: Gaming, h: toggle}
   - F1
   - F2
   - F3
@@ -209,7 +209,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&gaming_toggle'
+  - {t: Gaming, h: toggle}
   - '&td0'
   - A
   - S
