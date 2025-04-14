@@ -102,6 +102,8 @@
                                 &trans      &trans      &trans                                                                   &trans       &trans     &trans
             >;
             sensor-bindings = <&scroll_encoder>;
+
+        };
             
         layer_4 {
             display-name = "Gaming";
